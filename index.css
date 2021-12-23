@@ -536,7 +536,7 @@ hr {
   }
 }
 @media (max-width: 580px) {
-  .product-container  {
+  .product-container, .card-product flex   {
     display: flex;
     flex-direction: column;
   }
@@ -544,7 +544,7 @@ hr {
 }
 
 @media (min-width: 580px) and (max-width: 1030px) {
-  .product-container {
+  .product-container, .card-product flex  {
     display: flex;
     flex-direction: column;
   }
