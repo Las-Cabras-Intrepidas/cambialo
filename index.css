@@ -535,3 +535,17 @@ hr {
     margin-bottom: 1rem;
   }
 }
+@media (max-width: 580px) {
+  .product-container  {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+@media (min-width: 580px) and (max-width: 1030px) {
+  .product-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
